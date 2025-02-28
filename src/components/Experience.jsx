@@ -26,35 +26,29 @@ export default function Experience() {
         </div>
         <div className="experience-information">
           <p className="puesto">
-            Desarrollador de software - Empresa de transporte Grupo Horna S.A.C
+            Desarrollador de software - Empresa Corporación Mikrotik Perú
           </p>
-          <p className="date">Octubre 2024 - Actualidad</p>
+          <p className="date">Enero 2024 - Actualidad</p>
           <ul className="list-task">
             <li>
-              Desarrollo de una pagina web interactiva con pasarela de pagos.
+              Desarrollo de una aplicación web para la gestión eficiente de
+              stock, optimizando el control de inventarios.
             </li>
-            <li>Administración de servidores.</li>
-            <li>Implementación de un servicio de streaming.</li>
             <li>
-              Gestión y soporte en el uso del software de venta de pasajes.
+              Implementación de un sistema web para la gestión de accesos en
+              Radius, automatizando la autenticación de usuarios.
             </li>
-            <li>Administración y gestión de base de datos.</li>
-          </ul>
-        </div>
-        <div className="experience-information">
-          <p className="puesto">
-            Analista Programador - GEMMaster Business Solutions
-          </p>
-          <p className="date">Enero 2024 - Octubre 2024</p>
-          <ul className="list-task">
-            <li>Gestión de una aplicación web ERP.</li>
-            <li>Desarrollo de API REST con el framework Laravel.</li>
-            <li>Desarrollo Web FrontEnd con el framework Vue JS.</li>
             <li>
-              Implementación de actualizaciones y optimización de estructura del
-              sistema.
+              Desarrollo de un sistema web para la gestión interna de la empresa.
             </li>
-            <li>Administración y gestión de base de datos.</li>
+            <li>
+              Administración y configuración de hosting en SiteGround,
+              asegurando estabilidad y rendimiento del sitio.
+            </li>
+            <li>
+              Gestión y mantenimiento de bases de datos, optimizando consultas y
+              estructura para un mejor rendimiento.
+            </li>
           </ul>
         </div>
         <div className="experience-information">
@@ -70,23 +64,6 @@ export default function Experience() {
               Implementación de web para exámenes ocupacionales y exámenes de
               laboratorio.
             </li>
-            <li>Administración y gestión de base de datos.</li>
-          </ul>
-        </div>
-        <div className="experience-information">
-          <p className="puesto">Desarrollador de Software - Layla E.I.R.L</p>
-          <p className="date">Enero 2022 - Diciembre 2024</p>
-          <ul className="list-task">
-            <li>
-              Implementación de software para la gestión de inventario y
-              comprobantes electrónicos.
-            </li>
-            <li>Gestión y soporte de servicios basados en la nube.</li>
-            <li>
-              Implementación de un servidor de archivos utilizando Samba en un
-              servidor Linux.
-            </li>
-            <li>Soporte técnico del hardware</li>
             <li>Administración y gestión de base de datos.</li>
           </ul>
         </div>

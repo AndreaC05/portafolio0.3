@@ -1,5 +1,5 @@
 import { Image } from "primereact/image";
-import profile from "../assets/images/profile.png";
+import profile from "../assets/images/perfil.png";
 // import looking from "../assets/images/looking.svg";
 import cv from "../assets/docs/cv.pdf";
 import "../styles/personal.css";
@@ -10,7 +10,7 @@ export default function PersonalInformation() {
       <div className="personal-information flex justify-content-center align-items-center">
         <Image src={profile} alt="Image" width="180" className="mr-4" />
         <div className="information">
-          <p className="name">German Cordova</p>
+          <p className="name">Andrea Aguirre</p>
           <p className="description">
             Bachiller en Ingeniería de software con experiencia en el
             desarrollo, análisis e implementación de soluciones tecnológicas.

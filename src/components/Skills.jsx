@@ -174,17 +174,6 @@ export default function Skills() {
           </div>
           <div className="containerSkill">
             <Image
-              className="linux"
-              alt="linux"
-              src={linux}
-              title="Linux"
-              width="45"
-              height="auto"
-            />
-            <p>Linux</p>
-          </div>
-          <div className="containerSkill">
-            <Image
               className="figma"
               alt="figma"
               src={figma}
@@ -193,17 +182,6 @@ export default function Skills() {
               height="auto"
             />
             <p>Figma</p>
-          </div>
-          <div className="containerSkill">
-            <Image
-              className="vue"
-              alt="vue"
-              src={vue}
-              title="Vue"
-              width="45"
-              height="auto"
-            />
-            <p>Vue</p>
           </div>
           <div className="containerSkill">
             <Image

@@ -47,7 +47,7 @@ export default function Email() {
         <div className="email-content flex align-items-center mt-4">
           <InputText
             type="email"
-            placeholder="german.sc937@gmail.com"
+            placeholder="aguirreandrea457@gmail.com"
             disabled
             className="p-2 correo"
           />

@@ -70,35 +70,20 @@ export default function Project() {
         <div className="project-information">
           <ProjectTemplate
             image={project8}
-            title="GH Bus Streaming - Software Privado"
-            description="Web interactiva para la reproduccion de contenido multimendia para buses."
+            title="Gestión de usuarios Wi Fi (RADIUS)"
+            description="Web de gestión de accesos en
+              Radius, automatizando la autenticación de usuarios."
             prjSkills={stack4}
-            // url="https://ghbus.com.pe/"
-            // btnName="Live"
-          />
-          <ProjectTemplate
-            image={project7}
-            title="GH Bus"
-            description="Web interactiva para la venta de pasajes online."
-            prjSkills={stack4}
-            url="https://ghbus.com.pe/"
+            url="http://181.65.242.92:8085/"
             btnName="Live"
           />
           <ProjectTemplate
-            image={project6}
-            title="Argus ERP - Software Privado"
-            description="Solución web dirigida a controlar y automatizar los procesos de negocio de pequeñas, medianas y grandes empresas."
-            prjSkills={stack3}
-            // url="https://demo.sistema-argus.com/dashboard"
-            // btnName="Live"
-          />
-          <ProjectTemplate
-            image={project1}
-            title="Layla - Sistema de facturacion - Software Privado"
-            description="Solucion web dirigida a la gestion de inventario y generacion de comprobantes electronicos."
-            prjSkills={stack1}
-            // url="https://dmx-offroad.netlify.app/"
-            // btnName="Live"
+            image={project7}
+            title="Gestión de control Interno"
+            description="Web dirigida al control Interno"
+            prjSkills={stack4}
+            url=""
+            btnName="Live"
           />
           <ProjectTemplate
             image={project2}

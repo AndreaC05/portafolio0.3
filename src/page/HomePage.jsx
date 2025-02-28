@@ -20,8 +20,8 @@ export default function HomePage() {
         <Project />
         <Divider type="dotted" className="w-10 m-auto mt-5" />
         <Skills />
-        <Divider type="dotted" className="w-10 m-auto mt-3" />
-        <Courses />
+        {/* <Divider type="dotted" className="w-10 m-auto mt-3" /> */}
+        {/* <Courses /> */}
         <Divider type="dotted" className="w-10 m-auto mt-3" />
         <Social />
         <Divider type="dotted" className="w-10 m-auto mt-3" />
