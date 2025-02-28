@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  color: #fff;
+  background: #131922;
+}
+
+.container {
+  width: 50%;
+  margin: 30px auto;
+  padding: 20px;
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+}
+
+.personal-information {
+  width: 80%;
+  margin: auto;
+}
+
+.personal-information .information .name {
+  /* color: #384a72; */
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+.personal-information .information .description {
+  /* color: #5f5f5f; */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  flex-shrink: 0;
+  margin-top: 8px;
+}
+
+.looking-icon {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 12px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #a7f3d0;
+}
+
+.looking-icon .looking {
+  width: 20px;
+  height: 20px;
+}
+
+.resume-icon {
+  padding: 8px 15px;
+  gap: 10px;
+  flex-shrink: 0;
+  background: #e0e7ff;
+  border-radius: 10px;
+}
+
+.resume-icon a {
+  text-decoration: none;
+}
+
+.resume-icon .resume-text {
+  /* color: #6366f1; */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin-left: 10px;
+}
+
+.experience-container,
+.projects-container,
+.skills-container,
+.social-container,
+.email-container,
+.courses-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.experience-container .title-experience,
+.projects-container .title-project,
+.skills-container .title-skills,
+.social-container .title-social,
+.email-container .title-email,
+.courses-container .title-courses {
+  /* color: #5fdfff; */
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}

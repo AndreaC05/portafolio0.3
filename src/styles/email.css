@@ -1,0 +1,33 @@
+.correo {
+    width: 520px;
+    margin-top: 8px;
+}
+
+.actions {
+    margin-top: 8px;
+}
+
+.email-content input {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+}
+
+.email-content input::placeholder {
+    color: white; 
+}
+
+@media screen and (max-width: 768px) {
+    .email-content {
+        flex-wrap: wrap;
+    }
+    
+    .email-content .correo {
+        width: 100%;
+    }
+
+    .email-content .actions {
+        width: 100%;
+        justify-content: center;
+    }
+}
