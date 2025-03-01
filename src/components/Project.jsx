@@ -80,15 +80,15 @@ export default function Project() {
           <ProjectTemplate
             image={project7}
             title="Gestión de control Interno"
-            description="Web dirigida al control Interno"
+            description="Web dirigida al control Interno / Privado"
             prjSkills={stack4}
-            url=""
+            url="http://181.65.242.92:8082/"
             btnName="Live"
           />
           <ProjectTemplate
             image={project2}
             title="Bregma"
-            description="Web dirigida al sector de medicina corporativa."
+            description="Web dirigida al sector de medicina corporativa. / Colaboración"
             prjSkills={stack1}
             url="https://bregma.com.pe/"
             btnName="Live"
@@ -96,7 +96,7 @@ export default function Project() {
           <ProjectTemplate
             image={project5}
             title="Lab-U"
-            description="Web diseñada para la adquisicion examenes de laboratorio cerca a tu localidad."
+            description="Web diseñada para la adquisicion examenes de laboratorio cerca a tu localidad. / Colaboración"
             prjSkills={stack1}
             url="https://www.lab-u.pe/"
             btnName="Live"
