@@ -117,7 +117,7 @@ export default function Skills() {
             />
             <p>Github</p>
           </div>
-          <div className="containerSkill">
+          {/* <div className="containerSkill">
             <Image
               className="django"
               alt="django"
@@ -127,7 +127,7 @@ export default function Skills() {
               height="auto"
             />
             <p>Django</p>
-          </div>
+          </div> */}
           <div className="containerSkill">
             <Image
               className="react"
