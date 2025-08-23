@@ -7,6 +7,8 @@ import project5 from "../assets/images/prj-5.png";
 import project6 from "../assets/images/prj-6.png";
 import project7 from "../assets/images/prj-7.png";
 import project8 from "../assets/images/prj-8.png";
+import project9 from "../assets/images/prj-9.jpeg";
+import project10 from "../assets/images/prj-10.jpeg";
 import bootstrap from "../assets/icons/Bootstrap.png";
 import react from "../assets/icons/React.png";
 import laravel from "../assets/icons/Laravel.png";
@@ -44,6 +46,11 @@ export default function Project() {
     { id: 4, icon: linux },
   ];
 
+  const stack5 = [
+    { id: 1, icon: react },
+    { id: 2, icon: figma },
+  ];
+
   return (
     <>
       <div className="projects-container">
@@ -74,7 +81,7 @@ export default function Project() {
             description="Web de gestión de accesos en
               Radius, automatizando la autenticación de usuarios."
             prjSkills={stack4}
-            url="http://181.65.242.92:8085/"
+            url="https://hostpot.mikrotikperu.com:8080/"
             btnName="Live"
           />
           <ProjectTemplate
@@ -82,7 +89,23 @@ export default function Project() {
             title="Gestión de control Interno"
             description="Web dirigida al control Interno / Privado"
             prjSkills={stack4}
-            url="http://181.65.242.92:8082/"
+            url="https://gestion.mikrotikperu.com:8082/"
+            btnName="Live"
+          />
+          <ProjectTemplate
+            image={project10}
+            title="Mikrotik Perú"
+            description="Página web informativa sobre servicios de Mikrotik Perú."
+            prjSkills={stack5}
+            url="https://mikrotikperu.com/"
+            btnName="Live"
+          />
+          <ProjectTemplate
+            image={project9}
+            title="Starlink Perú"
+            description="Página web informativa sobre servicios de Tecnología LEO."
+            prjSkills={stack5}
+            url="https://starlink.com.pe/"
             btnName="Live"
           />
           <ProjectTemplate

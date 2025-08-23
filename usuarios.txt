@@ -1,0 +1,8 @@
+Usuario Radius: 
+    APTIM 
+	    User: APTIM
+	    pass: aptim2025*
+
+Usuario SistemaTickets: 
+    soporte@cesar-ti.pe
+    Pass: poder123

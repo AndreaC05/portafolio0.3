@@ -8,11 +8,11 @@ export default function ProjectTemplate({
   description,
   prjSkills,
   url,
-  btnName
+  btnName,
 }) {
   const handleLiveButtonClick = () => {
     if (url) {
-      window.location.href = url;
+      window.open(url, "_blank"); // abre en nueva pestaña
     }
   };
   return (
@@ -37,7 +37,10 @@ export default function ProjectTemplate({
                 />
               ))}
           </div>
-          <button className={`btnLive ${!btnName && 'hidden'}`} onClick={handleLiveButtonClick}>
+          <button
+            className={`btnLive ${!btnName && "hidden"}`}
+            onClick={handleLiveButtonClick}
+          >
             {btnName}
           </button>
         </div>
@@ -52,5 +55,5 @@ ProjectTemplate.propTypes = {
   description: PropTypes.string.isRequired,
   prjSkills: PropTypes.arrayOf(PropTypes.object).isRequired,
   url: PropTypes.string,
-  btnName: PropTypes.string
+  btnName: PropTypes.string,
 };
