@@ -9,6 +9,7 @@ import project7 from "../assets/images/prj-7.png";
 import project8 from "../assets/images/prj-8.png";
 import project9 from "../assets/images/prj-9.jpeg";
 import project10 from "../assets/images/prj-10.jpeg";
+import project11 from "../assets/images/prj-11.png";
 import bootstrap from "../assets/icons/Bootstrap.png";
 import react from "../assets/icons/React.png";
 import laravel from "../assets/icons/Laravel.png";
@@ -124,14 +125,14 @@ export default function Project() {
             url="https://www.lab-u.pe/"
             btnName="Live"
           />
-          {/* <ProjectTemplate
-            image={project3}
-            title="BookHub"
-            description="Web especializada en la venta de libros electronicos."
-            prjSkills={stack2}
-            url="https://github.com/gdaniel159/BookHub"
-            btnName="Source"
-          /> */}
+          <ProjectTemplate
+            image={project11}
+            title="Tarjetas Digitales Andrea's"
+            description="Página Web diseña para ofrecer tarjetas de invitaciones digitales personalizadas."
+            prjSkills={stack5}
+            url="https://tarjetadigitales.netlify.app/"
+            btnName="Live"
+          />
           {/* <ProjectTemplate
             image={project4}
             title="Fast Computer - Software Privado"

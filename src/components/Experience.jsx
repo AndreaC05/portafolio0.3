@@ -39,7 +39,8 @@ export default function Experience() {
               Radius, automatizando la autenticación de usuarios.
             </li>
             <li>
-              Desarrollo de un sistema web para la gestión interna de la empresa.
+              Desarrollo de un sistema web para la gestión interna de la
+              empresa.
             </li>
             <li>
               Administración y configuración de hosting en SiteGround,
@@ -65,6 +66,31 @@ export default function Experience() {
               laboratorio.
             </li>
             <li>Administración y gestión de base de datos.</li>
+          </ul>
+        </div>
+        <div className="experience-information">
+          <p className="puesto">Freelancer</p>
+          <p className="date">Julio 2024 - Actualidad</p>
+          <ul className="list-task">
+            <li>
+              Diseño y desarrollo de interfaces web modernas y responsivas.
+            </li>
+            <li>
+              Creación de experiencias digitales interactivas con HTML, CSS,
+              JavaScript y React JS.
+            </li>
+            <li>
+              Diseño creativo de elementos visuales y composición gráfica para
+              proyectos digitales.
+            </li>
+            <li>
+              Desarrollo de proyectos personalizados según las necesidades de
+              cada cliente.
+            </li>
+            <li>
+              Integración de diseño y programación para ofrecer soluciones
+              completas y funcionales.
+            </li>
           </ul>
         </div>
       </div>
